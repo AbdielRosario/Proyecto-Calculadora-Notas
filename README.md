@@ -24,6 +24,27 @@
 - Lenguaje/Plataforma: PSeInt  
 - Fecha de entrega: 11 de abril de 2026
 
+- ## 🛠️ Contrato de Variables (Uso Obligatorio)
+Para que todas las partes del código encajen, los integrantes deben usar estrictamente estos nombres de variables:
+
+### 1. Arreglos Principales (Gestionados por Abdiel):
+* `nombres[i]`: Nombre del estudiante actual.
+* `matriculas[i]`: Matrícula del estudiante actual.
+* `promedios[i]`: Resultado numérico final (calculado por Carmen).
+* `letras[i]`: Calificación literal A, B, C, D o F (asignada por Leybon).
+
+### 2. Variables de Entrada (Gestionadas por Sara):
+* `nota_tareas`: Calificación de tareas (20%).
+* `nota_parcial`: Calificación examen parcial (15%).
+* `nota_final`: Calificación examen final (25%).
+* `nota_participacion`: Calificación participación (15%).
+* `nota_av`: Calificación aula virtual (25%).
+
+### 3. Reglas de Oro:
+* **Sara:** No entregar el código hasta que las 5 variables de nota estén validadas entre 0 y 100.
+* **Carmen:** Usar las variables de Sara para llenar el arreglo `promedios[i]`.
+* **Leybon:** Usar `promedios[i]` para llenar `letras[i]`.
+
 ## 🚀 Plan de Trabajo
 1. Fase 1 - Creación del esqueleto: Estructura de arreglos y ciclo maestro (Abdiel).  
 2. Fase 2 - Desarrollo de funciones individuales: Entrada/validación (Sara), Lógica matemática (Carmen), Literales y reglas (Leybon).  
