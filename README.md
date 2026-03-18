@@ -51,12 +51,4 @@ Para que todas las partes del código encajen, los integrantes deben usar estric
 3. Fase 3 - Diseño de salida y pruebas: Formato de tablas y QA (Euti).  
 4. Fase 4 - Integración final y entrega: Unir todo en el repositorio y ajustes finales (Abdiel).
 
----
-
-Si quieres, además puedo preparar:
-- Estructura de carpetas sugerida: `src/`, `docs/`, `tests/`.
-- Archivo de plantilla PSeInt (ej. `src/plantilla_calculadora.pse`).
-- `CONTRIBUTING.md` con pautas para el equipo.
-- Issues y tareas para cada fase (con títulos y descripciones).
-
 Dime qué opción prefieres (1, 2 o 3) y, si eliges que yo actualice, proporciona el SHA actual del README.md o confirma que pegarás el contenido manualmente. Haré la siguiente acción en cuanto confirmes.
